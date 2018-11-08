@@ -1,0 +1,35 @@
+{
+  "name": "ngbp",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://raw.github.com/ngbp/ngbp/master/LICENSE"
+    }
+  ],
+  "dependencies": {
+    "angular": "^1.5.11",
+    "angular-local-storage": "^0.7.1",
+    "angular-route": "^1.7.3",
+    "angular-router": "0.0.2",
+    "angular-translate": "^2.18.1",
+    "angular-translate-handler-log": "^2.18.1",
+    "angular-translate-loader-static-files": "^2.18.1",
+    "angular-ui-router": "^1.0.20",
+    "bootstrap": "^3.3.1",
+    "font-awesome": "^4.7.0"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.3",
+    "grunt-contrib-clean": "^1.1.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^2.2.1",
+    "grunt-contrib-uglify": "^4.0.0"
+  } 
+}
