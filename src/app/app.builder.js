@@ -17,7 +17,7 @@
          * Calls all configuration methods
          */
         function build() {
-            [configureTranslate, configureStorage, configureRoute]
+            [configureStorage, configureRoute]
                 .forEach(function (action){
                     return action;
                 });
