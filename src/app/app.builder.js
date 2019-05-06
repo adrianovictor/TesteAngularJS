@@ -5,7 +5,7 @@
         .module('a2s.providers',[])
         .provider('appBuilder', appBuilderProvider);
 
-    function appBuilderProvider(localStorageServiceProvider, $translateProvider, $locationProvider) {
+    function appBuilderProvider(localStorageServiceProvider, $locationProvider) {
         var service = {
             build: build,
             $get: $get
@@ -42,15 +42,15 @@
         /**
          * Configure translator
          */
-        function configureTranslate() {
-            $translateProvider
-                .useStaticFilesLoader({
-                    prefix: 'src/app/translations/',
-                    suffix: '.json', 
-                })
-                .preferredLanguage('pt-br')
-                .useSanitizeValueStrategy('escaped');
-        }
+        //function configureTranslate() {
+        //    $translateProvider
+        //        .useStaticFilesLoader({
+        //            prefix: 'src/app/translations/',
+        //            suffix: '.json', 
+        //        })
+        //        .preferredLanguage('pt-br')
+        //        .useSanitizeValueStrategy('escaped');
+        //}
 
         function $get() {
             return undefined;
