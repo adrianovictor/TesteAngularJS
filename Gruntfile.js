@@ -42,8 +42,6 @@ module.exports = function (grunt) {
                         src: [
                             'node_modules/angular/angular.min.js',
                             'node_modules/angular-ui-router/release/angular-ui-router.min.js',
-                            'node_modules/angular-translate/dist/angular-translate.min.js',
-                            'node_modules/angular-translate-loader-static-files/angular-translate-loader-static-files.min.js',
                             'node_modules/angular-local-storage/dist/angular-local-storage.min.js'
                         ],
                         dest: '<%= build_dir %>/assets/',
