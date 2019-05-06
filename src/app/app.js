@@ -4,7 +4,6 @@
     angular
         .module('a2s', [
             'ui.router',
-            'pascalprecht.translate',
             'LocalStorageModule',
             'a2s.providers',
             'a2s.home',
