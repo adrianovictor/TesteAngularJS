@@ -19,7 +19,7 @@
         .run(function ($rootScope) {
             $rootScope.editModeEnabled = true;            
         })
-        .controller(function ($scope, $htpp){
+        .controller(function ($scope, $http){
 
         });
 })();
