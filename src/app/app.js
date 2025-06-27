@@ -10,6 +10,8 @@
             'a2s.about',
             'a2s.services'
         ])
+        .value('moment', moment)
+        .value('_', _)        
         .config(function($urlRouterProvider, appBuilderProvider) {
             $urlRouterProvider.otherwise('/');
 

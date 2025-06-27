@@ -1,1 +1,24 @@
-<h2>Home</h2>
+<div class="container">
+    <h2>Home - A2S Soluções Digitais</h2>
+
+    <p>{{ vm.welcomeMessage }}</p>
+
+    ---
+
+    <h3>Teste com Moment.js</h3>
+    <p>Data e Hora Atual: <strong>{{ vm.formattedDate }}</strong></p>
+    <p>Data daqui a 10 dias: <strong>{{ vm.futureDateFormatted }}</strong></p>
+
+    ---
+
+    <h3>Teste com Lodash</h3>
+    <p>Array Original: <code>[5, 2, 8, 1, 9, 3, 7]</code></p>
+    <p>Array Ordenado: <strong>{{ vm.sortedArray }}</strong></p>
+
+    <h4>Produtos Agrupados por Categoria:</h4>
+    <pre>{{ vm.groupedProducts | json }}</pre>
+
+    <h4>Outros exemplos de Lodash:</h4>
+    <p>Nome dos Produtos: <strong>{{ vm.productNames }}</strong></p>
+
+</div>
