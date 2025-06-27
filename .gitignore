@@ -1,0 +1,40 @@
+# Node modules (caso use npm/bower)
+node_modules/
+
+# Bower components (caso use bower)
+bower_components/
+
+# Diretórios de build (se houver)
+dist/
+build/
+tmp/
+temp/
+
+# Arquivos de log
+*.log
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Arquivos de ambiente
+.env
+
+# Cache do npm
+.npm/
+
+# Arquivos temporários
+*.swp
+*.bak
+*.tmp
+*.orig
+
+# Test Coverage
+coverage/
+karma-coverage/
